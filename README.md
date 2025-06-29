@@ -17,3 +17,14 @@ You can ask questions and interact with the community in the following
 locations:
 - [Brave Community](https://community.brave.com/)
 - [`community`](https://bravesoftware.slack.com) channel on Brave Software's Slack
+
+
+
+$ git checkout -b cr121 origin/master  # branch name is cr+Major number
+
+# package.json is saved
+$ git add package.json
+
+# From is the tag that is on origin/master, while to is the version being
+# committed now in `package.json`
+$ git commit -m "Update from Chromium 119.7049.17 to Chromium 120.0.7050.40."
