@@ -20,4 +20,3 @@ locations:
 
 
 
-$ npm run init
