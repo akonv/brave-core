@@ -253,3 +253,7 @@ $ npm run init
 
 # npm run apply patches (not needed as init already calls it for us)
 
+
+$ npm run update_patches
+
+
