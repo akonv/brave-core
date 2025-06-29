@@ -246,3 +246,10 @@ $ git add package.json
 # committed now in `package.json`
 $ git commit -m "Update from Chromium 119.7049.17 to Chromium 120.0.7050.40."
 
+
+
+# Checks out the new tag, and tries to apply all patches
+$ npm run init
+
+# npm run apply patches (not needed as init already calls it for us)
+
