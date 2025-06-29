@@ -256,4 +256,9 @@ $ npm run init
 
 $ npm run update_patches
 
+git add -u *.patch
+$ git commit -m " Update patches from Chromium 119.7049.17 to Chromium 120.0.7050.40."
+
+# Run init again to make sure all patches are green.
+$ npm run init
 
